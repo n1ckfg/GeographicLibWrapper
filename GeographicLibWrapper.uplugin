@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GeographicLibWrapper",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Nick Fox-Gieg",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GeographicLibWrapper",
+			"Type": "Developer",
+			"LoadingPhase": "Default"
+		}
+	]
+}
