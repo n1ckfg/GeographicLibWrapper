@@ -28,8 +28,6 @@ public class GeographicLibWrapper : ModuleRules
 			new string[]
 			{
 				"Core",
-				"GeographicLibWrapperLibrary",
-				"Projects"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -38,6 +36,10 @@ public class GeographicLibWrapper : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
+				"CoreUObject",
+				"Engine",
+				"Slate",
+				"SlateCore",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
