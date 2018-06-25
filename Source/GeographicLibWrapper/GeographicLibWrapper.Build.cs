@@ -44,12 +44,6 @@ public class GeographicLibWrapper : ModuleRules
 			}
 			);
 		
-		
-		DynamicallyLoadedModuleNames.AddRange(
-			new string[]
-			{
-				// ... add any modules that your module loads dynamically here ...
-			}
-			);
+		PublicAdditionalLibraries.Add("/usr/local/lib/libGeographic.so");
 	}
 }

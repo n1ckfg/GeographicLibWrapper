@@ -28,7 +28,6 @@ void FGeographicLibWrapperModule::StartupModule()
     y /= scale;
     z /= scale;
 
-	/*
     cout << "~ ~ ~ cpp ~ ~ ~" << "\n";
     cout << "LLA home point: " << homeLat << " " << homeLon << " " << homeAlt << "\n";
     cout << "+ XYZ offset: " << offsetX << " " << offsetY << " " << offsetZ << "\n";
@@ -36,7 +35,6 @@ void FGeographicLibWrapperModule::StartupModule()
     cout << "As LLA: " << lat << " " << lon << " " << alt << "\n";
     cout << "Back to XYZ: " << x << " " << y << " " << z << "\n";
     cout << "~ ~ ~ ~ ~ ~ ~ ~" << "\n";
-	*/
 }
 
 void FGeographicLibWrapperModule::ShutdownModule()
